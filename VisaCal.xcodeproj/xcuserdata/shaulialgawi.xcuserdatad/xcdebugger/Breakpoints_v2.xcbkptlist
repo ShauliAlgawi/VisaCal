@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "44E43A8E-D32A-49BD-BCEF-47964518EF23"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F03B611-DAAF-4B87-875D-287518C8659E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VisaCal/ReceipsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "ReceipsViewModel"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "7F03B611-DAAF-4B87-875D-287518C8659E - 1897853739d44ed6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for VisaCal.ReceipsViewModel.loadFrom&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(url: Swift.String, type: &#x3c4;_0_0.Type) async -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "VisaCal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shaulialgawi/Documents/VisaCal/VisaCal/ReceipsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "1069">
+               </Location>
+               <Location
+                  uuid = "7F03B611-DAAF-4B87-875D-287518C8659E - 3f5b8ab02bc3ac89"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for VisaCal.ReceipsViewModel.loadFrom&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable, &#x3c4;_0_0: Swift.Encodable&gt;(url: Swift.String, type: &#x3c4;_0_0.Type) async -&gt; Swift.Array&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "VisaCal"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shaulialgawi/Documents/VisaCal/VisaCal/ReceipsViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "362">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5A9774C2-F139-4F7B-B81A-95ADB92AE92D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VisaCal/ReceipsViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "loadFrom(url:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

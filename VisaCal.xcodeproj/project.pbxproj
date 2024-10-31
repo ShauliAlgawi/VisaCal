@@ -1,0 +1,621 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5ABF708B2CD3CEF300FAEA05 /* VisaCalApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF708A2CD3CEF300FAEA05 /* VisaCalApp.swift */; };
+		5ABF708D2CD3CEF300FAEA05 /* ReciepsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF708C2CD3CEF300FAEA05 /* ReciepsList.swift */; };
+		5ABF708F2CD3CEF300FAEA05 /* ReceipItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF708E2CD3CEF300FAEA05 /* ReceipItem.swift */; };
+		5ABF70912CD3CEF600FAEA05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ABF70902CD3CEF600FAEA05 /* Assets.xcassets */; };
+		5ABF70942CD3CEF600FAEA05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ABF70932CD3CEF600FAEA05 /* Preview Assets.xcassets */; };
+		5ABF709E2CD3CEF700FAEA05 /* VisaCalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF709D2CD3CEF700FAEA05 /* VisaCalTests.swift */; };
+		5ABF70A82CD3CEF700FAEA05 /* VisaCalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF70A72CD3CEF700FAEA05 /* VisaCalUITests.swift */; };
+		5ABF70AA2CD3CEF700FAEA05 /* VisaCalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF70A92CD3CEF700FAEA05 /* VisaCalUITestsLaunchTests.swift */; };
+		5ABF70B72CD3CF9500FAEA05 /* ReciepItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF70B62CD3CF9500FAEA05 /* ReciepItemView.swift */; };
+		5ABF70B92CD3E99E00FAEA05 /* ReceipsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF70B82CD3E99E00FAEA05 /* ReceipsViewModel.swift */; };
+		5ABF70BB2CD3FDB700FAEA05 /* RecipeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF70BA2CD3FDB700FAEA05 /* RecipeDetails.swift */; };
+		5ABF70BD2CD423AE00FAEA05 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF70BC2CD423AE00FAEA05 /* AuthenticationService.swift */; };
+		5ABF70BF2CD4392D00FAEA05 /* RecipeDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF70BE2CD4392D00FAEA05 /* RecipeDetailsViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5ABF709A2CD3CEF700FAEA05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ABF707F2CD3CEF300FAEA05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ABF70862CD3CEF300FAEA05;
+			remoteInfo = VisaCal;
+		};
+		5ABF70A42CD3CEF700FAEA05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5ABF707F2CD3CEF300FAEA05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5ABF70862CD3CEF300FAEA05;
+			remoteInfo = VisaCal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5ABF70872CD3CEF300FAEA05 /* VisaCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VisaCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ABF708A2CD3CEF300FAEA05 /* VisaCalApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaCalApp.swift; sourceTree = "<group>"; };
+		5ABF708C2CD3CEF300FAEA05 /* ReciepsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReciepsList.swift; sourceTree = "<group>"; };
+		5ABF708E2CD3CEF300FAEA05 /* ReceipItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceipItem.swift; sourceTree = "<group>"; };
+		5ABF70902CD3CEF600FAEA05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5ABF70932CD3CEF600FAEA05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5ABF70992CD3CEF700FAEA05 /* VisaCalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisaCalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ABF709D2CD3CEF700FAEA05 /* VisaCalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaCalTests.swift; sourceTree = "<group>"; };
+		5ABF70A32CD3CEF700FAEA05 /* VisaCalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisaCalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5ABF70A72CD3CEF700FAEA05 /* VisaCalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaCalUITests.swift; sourceTree = "<group>"; };
+		5ABF70A92CD3CEF700FAEA05 /* VisaCalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisaCalUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5ABF70B62CD3CF9500FAEA05 /* ReciepItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReciepItemView.swift; sourceTree = "<group>"; };
+		5ABF70B82CD3E99E00FAEA05 /* ReceipsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceipsViewModel.swift; sourceTree = "<group>"; };
+		5ABF70BA2CD3FDB700FAEA05 /* RecipeDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetails.swift; sourceTree = "<group>"; };
+		5ABF70BC2CD423AE00FAEA05 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		5ABF70BE2CD4392D00FAEA05 /* RecipeDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5ABF70842CD3CEF300FAEA05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABF70962CD3CEF700FAEA05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABF70A02CD3CEF700FAEA05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5ABF707E2CD3CEF300FAEA05 = {
+			isa = PBXGroup;
+			children = (
+				5ABF70892CD3CEF300FAEA05 /* VisaCal */,
+				5ABF709C2CD3CEF700FAEA05 /* VisaCalTests */,
+				5ABF70A62CD3CEF700FAEA05 /* VisaCalUITests */,
+				5ABF70882CD3CEF300FAEA05 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5ABF70882CD3CEF300FAEA05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5ABF70872CD3CEF300FAEA05 /* VisaCal.app */,
+				5ABF70992CD3CEF700FAEA05 /* VisaCalTests.xctest */,
+				5ABF70A32CD3CEF700FAEA05 /* VisaCalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5ABF70892CD3CEF300FAEA05 /* VisaCal */ = {
+			isa = PBXGroup;
+			children = (
+				5ABF708A2CD3CEF300FAEA05 /* VisaCalApp.swift */,
+				5ABF708C2CD3CEF300FAEA05 /* ReciepsList.swift */,
+				5ABF708E2CD3CEF300FAEA05 /* ReceipItem.swift */,
+				5ABF70902CD3CEF600FAEA05 /* Assets.xcassets */,
+				5ABF70922CD3CEF600FAEA05 /* Preview Content */,
+				5ABF70B62CD3CF9500FAEA05 /* ReciepItemView.swift */,
+				5ABF70B82CD3E99E00FAEA05 /* ReceipsViewModel.swift */,
+				5ABF70BA2CD3FDB700FAEA05 /* RecipeDetails.swift */,
+				5ABF70BC2CD423AE00FAEA05 /* AuthenticationService.swift */,
+				5ABF70BE2CD4392D00FAEA05 /* RecipeDetailsViewModel.swift */,
+			);
+			path = VisaCal;
+			sourceTree = "<group>";
+		};
+		5ABF70922CD3CEF600FAEA05 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5ABF70932CD3CEF600FAEA05 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5ABF709C2CD3CEF700FAEA05 /* VisaCalTests */ = {
+			isa = PBXGroup;
+			children = (
+				5ABF709D2CD3CEF700FAEA05 /* VisaCalTests.swift */,
+			);
+			path = VisaCalTests;
+			sourceTree = "<group>";
+		};
+		5ABF70A62CD3CEF700FAEA05 /* VisaCalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5ABF70A72CD3CEF700FAEA05 /* VisaCalUITests.swift */,
+				5ABF70A92CD3CEF700FAEA05 /* VisaCalUITestsLaunchTests.swift */,
+			);
+			path = VisaCalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5ABF70862CD3CEF300FAEA05 /* VisaCal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ABF70AD2CD3CEF700FAEA05 /* Build configuration list for PBXNativeTarget "VisaCal" */;
+			buildPhases = (
+				5ABF70832CD3CEF300FAEA05 /* Sources */,
+				5ABF70842CD3CEF300FAEA05 /* Frameworks */,
+				5ABF70852CD3CEF300FAEA05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VisaCal;
+			productName = VisaCal;
+			productReference = 5ABF70872CD3CEF300FAEA05 /* VisaCal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5ABF70982CD3CEF700FAEA05 /* VisaCalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ABF70B02CD3CEF700FAEA05 /* Build configuration list for PBXNativeTarget "VisaCalTests" */;
+			buildPhases = (
+				5ABF70952CD3CEF700FAEA05 /* Sources */,
+				5ABF70962CD3CEF700FAEA05 /* Frameworks */,
+				5ABF70972CD3CEF700FAEA05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ABF709B2CD3CEF700FAEA05 /* PBXTargetDependency */,
+			);
+			name = VisaCalTests;
+			productName = VisaCalTests;
+			productReference = 5ABF70992CD3CEF700FAEA05 /* VisaCalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5ABF70A22CD3CEF700FAEA05 /* VisaCalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5ABF70B32CD3CEF700FAEA05 /* Build configuration list for PBXNativeTarget "VisaCalUITests" */;
+			buildPhases = (
+				5ABF709F2CD3CEF700FAEA05 /* Sources */,
+				5ABF70A02CD3CEF700FAEA05 /* Frameworks */,
+				5ABF70A12CD3CEF700FAEA05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5ABF70A52CD3CEF700FAEA05 /* PBXTargetDependency */,
+			);
+			name = VisaCalUITests;
+			productName = VisaCalUITests;
+			productReference = 5ABF70A32CD3CEF700FAEA05 /* VisaCalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5ABF707F2CD3CEF300FAEA05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					5ABF70862CD3CEF300FAEA05 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					5ABF70982CD3CEF700FAEA05 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 5ABF70862CD3CEF300FAEA05;
+					};
+					5ABF70A22CD3CEF700FAEA05 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 5ABF70862CD3CEF300FAEA05;
+					};
+				};
+			};
+			buildConfigurationList = 5ABF70822CD3CEF300FAEA05 /* Build configuration list for PBXProject "VisaCal" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5ABF707E2CD3CEF300FAEA05;
+			productRefGroup = 5ABF70882CD3CEF300FAEA05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5ABF70862CD3CEF300FAEA05 /* VisaCal */,
+				5ABF70982CD3CEF700FAEA05 /* VisaCalTests */,
+				5ABF70A22CD3CEF700FAEA05 /* VisaCalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ABF70852CD3CEF300FAEA05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ABF70942CD3CEF600FAEA05 /* Preview Assets.xcassets in Resources */,
+				5ABF70912CD3CEF600FAEA05 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABF70972CD3CEF700FAEA05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABF70A12CD3CEF700FAEA05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5ABF70832CD3CEF300FAEA05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ABF70BB2CD3FDB700FAEA05 /* RecipeDetails.swift in Sources */,
+				5ABF70BF2CD4392D00FAEA05 /* RecipeDetailsViewModel.swift in Sources */,
+				5ABF70B92CD3E99E00FAEA05 /* ReceipsViewModel.swift in Sources */,
+				5ABF708D2CD3CEF300FAEA05 /* ReciepsList.swift in Sources */,
+				5ABF708F2CD3CEF300FAEA05 /* ReceipItem.swift in Sources */,
+				5ABF70B72CD3CF9500FAEA05 /* ReciepItemView.swift in Sources */,
+				5ABF708B2CD3CEF300FAEA05 /* VisaCalApp.swift in Sources */,
+				5ABF70BD2CD423AE00FAEA05 /* AuthenticationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABF70952CD3CEF700FAEA05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ABF709E2CD3CEF700FAEA05 /* VisaCalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5ABF709F2CD3CEF700FAEA05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ABF70AA2CD3CEF700FAEA05 /* VisaCalUITestsLaunchTests.swift in Sources */,
+				5ABF70A82CD3CEF700FAEA05 /* VisaCalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5ABF709B2CD3CEF700FAEA05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ABF70862CD3CEF300FAEA05 /* VisaCal */;
+			targetProxy = 5ABF709A2CD3CEF700FAEA05 /* PBXContainerItemProxy */;
+		};
+		5ABF70A52CD3CEF700FAEA05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5ABF70862CD3CEF300FAEA05 /* VisaCal */;
+			targetProxy = 5ABF70A42CD3CEF700FAEA05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5ABF70AB2CD3CEF700FAEA05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5ABF70AC2CD3CEF700FAEA05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5ABF70AE2CD3CEF700FAEA05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VisaCal/Preview Content\"";
+				DEVELOPMENT_TEAM = VZ9JD9VFPD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "To make sure its you";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shauli.VisaCal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5ABF70AF2CD3CEF700FAEA05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"VisaCal/Preview Content\"";
+				DEVELOPMENT_TEAM = VZ9JD9VFPD;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "To make sure its you";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shauli.VisaCal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5ABF70B12CD3CEF700FAEA05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZ9JD9VFPD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shauli.VisaCalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisaCal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VisaCal";
+			};
+			name = Debug;
+		};
+		5ABF70B22CD3CEF700FAEA05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZ9JD9VFPD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shauli.VisaCalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VisaCal.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VisaCal";
+			};
+			name = Release;
+		};
+		5ABF70B42CD3CEF700FAEA05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZ9JD9VFPD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shauli.VisaCalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VisaCal;
+			};
+			name = Debug;
+		};
+		5ABF70B52CD3CEF700FAEA05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VZ9JD9VFPD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shauli.VisaCalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VisaCal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5ABF70822CD3CEF300FAEA05 /* Build configuration list for PBXProject "VisaCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ABF70AB2CD3CEF700FAEA05 /* Debug */,
+				5ABF70AC2CD3CEF700FAEA05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ABF70AD2CD3CEF700FAEA05 /* Build configuration list for PBXNativeTarget "VisaCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ABF70AE2CD3CEF700FAEA05 /* Debug */,
+				5ABF70AF2CD3CEF700FAEA05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ABF70B02CD3CEF700FAEA05 /* Build configuration list for PBXNativeTarget "VisaCalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ABF70B12CD3CEF700FAEA05 /* Debug */,
+				5ABF70B22CD3CEF700FAEA05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5ABF70B32CD3CEF700FAEA05 /* Build configuration list for PBXNativeTarget "VisaCalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ABF70B42CD3CEF700FAEA05 /* Debug */,
+				5ABF70B52CD3CEF700FAEA05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5ABF707F2CD3CEF300FAEA05 /* Project object */;
+}
