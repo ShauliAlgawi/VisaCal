@@ -20,6 +20,7 @@
 		5ABF70BB2CD3FDB700FAEA05 /* RecipeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF70BA2CD3FDB700FAEA05 /* RecipeDetails.swift */; };
 		5ABF70BD2CD423AE00FAEA05 /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF70BC2CD423AE00FAEA05 /* AuthenticationService.swift */; };
 		5ABF70BF2CD4392D00FAEA05 /* RecipeDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF70BE2CD4392D00FAEA05 /* RecipeDetailsViewModel.swift */; };
+		5ABF70C12CD66E7600FAEA05 /* DisplayConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABF70C02CD66E7600FAEA05 /* DisplayConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		5ABF70BA2CD3FDB700FAEA05 /* RecipeDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetails.swift; sourceTree = "<group>"; };
 		5ABF70BC2CD423AE00FAEA05 /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
 		5ABF70BE2CD4392D00FAEA05 /* RecipeDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailsViewModel.swift; sourceTree = "<group>"; };
+		5ABF70C02CD66E7600FAEA05 /* DisplayConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				5ABF70BA2CD3FDB700FAEA05 /* RecipeDetails.swift */,
 				5ABF70BC2CD423AE00FAEA05 /* AuthenticationService.swift */,
 				5ABF70BE2CD4392D00FAEA05 /* RecipeDetailsViewModel.swift */,
+				5ABF70C02CD66E7600FAEA05 /* DisplayConfiguration.swift */,
 			);
 			path = VisaCal;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ABF70C12CD66E7600FAEA05 /* DisplayConfiguration.swift in Sources */,
 				5ABF70BB2CD3FDB700FAEA05 /* RecipeDetails.swift in Sources */,
 				5ABF70BF2CD4392D00FAEA05 /* RecipeDetailsViewModel.swift in Sources */,
 				5ABF70B92CD3E99E00FAEA05 /* ReceipsViewModel.swift in Sources */,
